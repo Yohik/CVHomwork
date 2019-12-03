@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkActivity">
+
+    <TextView
+        android:id="@+id/textViewWork1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Work №1" />
+
+    <TextView
+        android:id="@+id/textViewWork2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWork1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Work №2" />
+
+    <TextView
+        android:id="@+id/textViewWork3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWork2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Work №3" />
+
+    <TextView
+        android:id="@+id/textViewWork4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWork3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Work №4" />
+
+    <TextView
+        android:id="@+id/textViewWork5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWork4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Work №5" />
+
+
+</RelativeLayout>
